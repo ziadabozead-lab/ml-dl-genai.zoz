@@ -1,0 +1,408 @@
+English	The weather is beautiful today, so we decided to walk to the park.
+English	She has been learning to play the piano for almost three years.
+English	Could you please tell me where the nearest train station is?
+English	The company announced that it will open two new offices next year.
+English	My brother works at a hospital and often comes home very late.
+English	We should leave early tomorrow to avoid the heavy traffic.
+English	I read an interesting article about how volcanoes form.
+English	The children were laughing and running around in the garden.
+English	He forgot his umbrella again, and now he is completely soaked.
+English	Scientists have discovered a new species of frog in the rainforest.
+English	Please remember to turn off the lights before you leave the house.
+English	This restaurant serves the best pasta that I have ever tasted.
+English	The teacher asked the students to finish their homework by Friday.
+English	It was raining heavily, but the match continued as planned.
+English	Many people prefer to travel by train because it is comfortable.
+English	The library will be closed on Monday for maintenance work.
+English	I would like a cup of coffee with a little bit of milk.
+English	They moved to a small town near the mountains last summer.
+English	Learning a new language takes patience, practice, and a lot of time.
+English	The museum has a wonderful collection of ancient coins and pottery.
+English	How long does it take to get from the airport to the city center?
+English	Our neighbors invited us to dinner on Saturday evening.
+English	The new software update fixes several security problems.
+English	I think that honesty is the most important quality in a friend.
+English	The river flooded after several days of continuous rain.
+English	We watched a documentary about the history of the internet.
+English	Her grandmother tells wonderful stories about life in the village.
+English	Can you help me carry these boxes upstairs, please?
+English	The government plans to build more schools in rural areas.
+English	Yesterday I found an old photograph of my grandfather.
+English	Doctors recommend drinking plenty of water during hot weather.
+English	The concert was sold out within a few minutes.
+English	He answered every question calmly and gave clear explanations.
+English	The farmers are hoping for a good harvest this autumn.
+English	You can pay by card or in cash at the front desk.
+English	I have never seen such a large crowd in this street before.
+English	The engineer explained how the bridge could support so much weight.
+English	After the meeting, everyone went to lunch together.
+English	Please send me the report as soon as it is ready.
+English	The cat slept on the sofa while the rain tapped on the window.
+English	Good morning, how are you doing today?
+English	Thank you very much for your help.
+English	What time does the movie start tonight?
+English	I am looking for a book about space and stars.
+English	The price of fresh vegetables went up last month.
+English	Our team won the championship for the second year in a row.
+English	The bakery on the corner sells warm bread every morning.
+English	He decided to study medicine because he wants to help people.
+English	There are many reasons why people enjoy reading novels.
+English	The airplane landed safely despite the strong winds.
+English	My phone battery dies too quickly these days.
+Arabic	الطقس جميل اليوم، لذلك قررنا أن نذهب إلى الحديقة.
+Arabic	تعلمت العزف على البيانو منذ ثلاث سنوات تقريبا.
+Arabic	هل يمكنك أن تخبرني أين تقع أقرب محطة قطار؟
+Arabic	أعلنت الشركة أنها ستفتح مكتبين جديدين في العام المقبل.
+Arabic	يعمل أخي في مستشفى وغالبا ما يعود إلى البيت متأخرا.
+Arabic	يجب أن نغادر مبكرا غدا لتجنب الازدحام الشديد.
+Arabic	قرأت مقالا مثيرا عن كيفية تكون البراكين.
+Arabic	كان الأطفال يضحكون ويركضون في الحديقة.
+Arabic	نسي مظلته مرة أخرى وهو الآن مبلل تماما.
+Arabic	اكتشف العلماء نوعا جديدا من الضفادع في الغابة الاستوائية.
+Arabic	من فضلك تذكر أن تطفئ الأنوار قبل أن تغادر المنزل.
+Arabic	يقدم هذا المطعم أفضل معكرونة تذوقتها في حياتي.
+Arabic	طلب المعلم من الطلاب إنهاء واجباتهم قبل يوم الجمعة.
+Arabic	كانت السماء تمطر بغزارة لكن المباراة استمرت كما هو مخطط.
+Arabic	يفضل كثير من الناس السفر بالقطار لأنه مريح.
+Arabic	ستكون المكتبة مغلقة يوم الاثنين بسبب أعمال الصيانة.
+Arabic	أريد فنجانا من القهوة مع قليل من الحليب.
+Arabic	انتقلوا إلى بلدة صغيرة قرب الجبال في الصيف الماضي.
+Arabic	يحتاج تعلم لغة جديدة إلى صبر وتدريب ووقت طويل.
+Arabic	يضم المتحف مجموعة رائعة من العملات والفخار القديم.
+Arabic	كم يستغرق الوصول من المطار إلى وسط المدينة؟
+Arabic	دعانا جيراننا إلى العشاء مساء يوم السبت.
+Arabic	يعالج التحديث الجديد للبرنامج عدة مشكلات أمنية.
+Arabic	أعتقد أن الصدق هو أهم صفة في الصديق.
+Arabic	فاض النهر بعد عدة أيام من الأمطار المتواصلة.
+Arabic	شاهدنا فيلما وثائقيا عن تاريخ الإنترنت.
+Arabic	تروي جدتها قصصا رائعة عن الحياة في القرية.
+Arabic	هل تستطيع أن تساعدني في حمل هذه الصناديق إلى الطابق العلوي؟
+Arabic	تخطط الحكومة لبناء المزيد من المدارس في المناطق الريفية.
+Arabic	وجدت أمس صورة قديمة لجدي.
+Arabic	ينصح الأطباء بشرب كمية كافية من الماء في الطقس الحار.
+Arabic	نفدت تذاكر الحفل في دقائق قليلة.
+Arabic	أجاب عن كل سؤال بهدوء وقدم شروحا واضحة.
+Arabic	يأمل المزارعون في محصول جيد هذا الخريف.
+Arabic	يمكنك الدفع بالبطاقة أو نقدا عند مكتب الاستقبال.
+Arabic	لم أر من قبل مثل هذا الحشد الكبير في هذا الشارع.
+Arabic	شرح المهندس كيف يستطيع الجسر تحمل كل هذا الوزن.
+Arabic	بعد الاجتماع ذهب الجميع إلى الغداء معا.
+Arabic	أرسل لي التقرير حالما يصبح جاهزا من فضلك.
+Arabic	نامت القطة على الأريكة بينما كان المطر يطرق النافذة.
+Arabic	صباح الخير، كيف حالك اليوم؟
+Arabic	شكرا جزيلا على مساعدتك.
+Arabic	متى يبدأ الفيلم هذا المساء؟
+Arabic	أبحث عن كتاب عن الفضاء والنجوم.
+Arabic	ارتفع سعر الخضروات الطازجة في الشهر الماضي.
+Arabic	فاز فريقنا بالبطولة للعام الثاني على التوالي.
+Arabic	يبيع المخبز في الزاوية خبزا دافئا كل صباح.
+Arabic	قرر أن يدرس الطب لأنه يريد مساعدة الناس.
+Arabic	هناك أسباب كثيرة تجعل الناس يستمتعون بقراءة الروايات.
+Arabic	هبطت الطائرة بسلام رغم الرياح القوية.
+Arabic	تنفد بطارية هاتفي بسرعة كبيرة هذه الأيام.
+French	Il fait très beau aujourd'hui, alors nous avons décidé d'aller au parc à pied.
+French	Elle apprend à jouer du piano depuis presque trois ans.
+French	Pourriez-vous me dire où se trouve la gare la plus proche ?
+French	L'entreprise a annoncé qu'elle ouvrira deux nouveaux bureaux l'année prochaine.
+French	Mon frère travaille dans un hôpital et rentre souvent très tard.
+French	Nous devrions partir tôt demain pour éviter les embouteillages.
+French	J'ai lu un article intéressant sur la formation des volcans.
+French	Les enfants riaient et couraient dans le jardin.
+French	Il a encore oublié son parapluie et il est complètement trempé.
+French	Des scientifiques ont découvert une nouvelle espèce de grenouille dans la forêt tropicale.
+French	N'oubliez pas d'éteindre les lumières avant de quitter la maison.
+French	Ce restaurant sert les meilleures pâtes que j'aie jamais goûtées.
+French	Le professeur a demandé aux élèves de terminer leurs devoirs avant vendredi.
+French	Il pleuvait très fort, mais le match a continué comme prévu.
+French	Beaucoup de gens préfèrent voyager en train parce que c'est confortable.
+French	La bibliothèque sera fermée lundi pour des travaux d'entretien.
+French	Je voudrais une tasse de café avec un peu de lait.
+French	Ils ont déménagé dans une petite ville près des montagnes l'été dernier.
+French	Apprendre une nouvelle langue demande de la patience, de la pratique et beaucoup de temps.
+French	Le musée possède une magnifique collection de pièces et de poteries anciennes.
+French	Combien de temps faut-il pour aller de l'aéroport au centre-ville ?
+French	Nos voisins nous ont invités à dîner samedi soir.
+French	La nouvelle mise à jour du logiciel corrige plusieurs problèmes de sécurité.
+French	Je pense que l'honnêteté est la qualité la plus importante chez un ami.
+French	La rivière a débordé après plusieurs jours de pluie continue.
+French	Nous avons regardé un documentaire sur l'histoire d'internet.
+French	Sa grand-mère raconte de merveilleuses histoires sur la vie au village.
+French	Peux-tu m'aider à porter ces cartons à l'étage, s'il te plaît ?
+French	Le gouvernement prévoit de construire davantage d'écoles dans les zones rurales.
+French	Hier, j'ai retrouvé une vieille photographie de mon grand-père.
+French	Les médecins recommandent de boire beaucoup d'eau par temps chaud.
+French	Le concert a été complet en quelques minutes seulement.
+French	Il a répondu calmement à toutes les questions et a donné des explications claires.
+French	Les agriculteurs espèrent une bonne récolte cet automne.
+French	Vous pouvez payer par carte ou en espèces à la réception.
+French	Je n'avais jamais vu une telle foule dans cette rue auparavant.
+French	L'ingénieur a expliqué comment le pont pouvait supporter un tel poids.
+French	Après la réunion, tout le monde est allé déjeuner ensemble.
+French	Envoyez-moi le rapport dès qu'il sera prêt, s'il vous plaît.
+French	Le chat dormait sur le canapé pendant que la pluie tapait contre la fenêtre.
+French	Bonjour, comment allez-vous aujourd'hui ?
+French	Merci beaucoup pour votre aide.
+French	À quelle heure commence le film ce soir ?
+French	Je cherche un livre sur l'espace et les étoiles.
+French	Le prix des légumes frais a augmenté le mois dernier.
+French	Notre équipe a gagné le championnat pour la deuxième année consécutive.
+French	La boulangerie du coin vend du pain chaud tous les matins.
+French	Il a décidé d'étudier la médecine parce qu'il veut aider les gens.
+French	Il y a de nombreuses raisons pour lesquelles les gens aiment lire des romans.
+French	L'avion a atterri en toute sécurité malgré les vents forts.
+French	La batterie de mon téléphone se vide beaucoup trop vite ces jours-ci.
+Spanish	Hace muy buen tiempo hoy, así que decidimos ir caminando al parque.
+Spanish	Ella lleva casi tres años aprendiendo a tocar el piano.
+Spanish	¿Podría decirme dónde está la estación de tren más cercana?
+Spanish	La empresa anunció que abrirá dos oficinas nuevas el próximo año.
+Spanish	Mi hermano trabaja en un hospital y a menudo llega a casa muy tarde.
+Spanish	Deberíamos salir temprano mañana para evitar el tráfico pesado.
+Spanish	Leí un artículo interesante sobre cómo se forman los volcanes.
+Spanish	Los niños se reían y corrían por el jardín.
+Spanish	Otra vez se le olvidó el paraguas y ahora está completamente empapado.
+Spanish	Los científicos han descubierto una nueva especie de rana en la selva tropical.
+Spanish	Por favor, recuerda apagar las luces antes de salir de casa.
+Spanish	Este restaurante sirve la mejor pasta que he probado en mi vida.
+Spanish	El profesor pidió a los alumnos que terminaran la tarea antes del viernes.
+Spanish	Llovía con fuerza, pero el partido continuó según lo previsto.
+Spanish	Mucha gente prefiere viajar en tren porque es cómodo.
+Spanish	La biblioteca estará cerrada el lunes por trabajos de mantenimiento.
+Spanish	Quisiera una taza de café con un poco de leche.
+Spanish	Se mudaron a un pueblo pequeño cerca de las montañas el verano pasado.
+Spanish	Aprender un idioma nuevo requiere paciencia, práctica y mucho tiempo.
+Spanish	El museo tiene una maravillosa colección de monedas y cerámica antiguas.
+Spanish	¿Cuánto se tarda en llegar del aeropuerto al centro de la ciudad?
+Spanish	Nuestros vecinos nos invitaron a cenar el sábado por la noche.
+Spanish	La nueva actualización del programa corrige varios problemas de seguridad.
+Spanish	Creo que la honestidad es la cualidad más importante en un amigo.
+Spanish	El río se desbordó después de varios días de lluvia continua.
+Spanish	Vimos un documental sobre la historia de internet.
+Spanish	Su abuela cuenta historias maravillosas sobre la vida en el pueblo.
+Spanish	¿Puedes ayudarme a subir estas cajas al piso de arriba, por favor?
+Spanish	El gobierno planea construir más escuelas en las zonas rurales.
+Spanish	Ayer encontré una fotografía antigua de mi abuelo.
+Spanish	Los médicos recomiendan beber mucha agua cuando hace calor.
+Spanish	Las entradas del concierto se agotaron en pocos minutos.
+Spanish	Respondió a todas las preguntas con calma y dio explicaciones claras.
+Spanish	Los agricultores esperan una buena cosecha este otoño.
+Spanish	Puede pagar con tarjeta o en efectivo en la recepción.
+Spanish	Nunca había visto tanta gente en esta calle.
+Spanish	El ingeniero explicó cómo el puente podía soportar tanto peso.
+Spanish	Después de la reunión, todos fueron a almorzar juntos.
+Spanish	Envíame el informe en cuanto esté listo, por favor.
+Spanish	El gato dormía en el sofá mientras la lluvia golpeaba la ventana.
+Spanish	Buenos días, ¿cómo estás hoy?
+Spanish	Muchas gracias por tu ayuda.
+Spanish	¿A qué hora empieza la película esta noche?
+Spanish	Estoy buscando un libro sobre el espacio y las estrellas.
+Spanish	El precio de las verduras frescas subió el mes pasado.
+Spanish	Nuestro equipo ganó el campeonato por segundo año consecutivo.
+Spanish	La panadería de la esquina vende pan caliente todas las mañanas.
+Spanish	Decidió estudiar medicina porque quiere ayudar a la gente.
+Spanish	Hay muchas razones por las que a la gente le gusta leer novelas.
+Spanish	El avión aterrizó sin problemas a pesar de los fuertes vientos.
+Spanish	La batería de mi teléfono se agota demasiado rápido estos días.
+German	Das Wetter ist heute wunderschön, deshalb haben wir beschlossen, zu Fuß in den Park zu gehen.
+German	Sie lernt seit fast drei Jahren Klavier spielen.
+German	Könnten Sie mir bitte sagen, wo der nächste Bahnhof ist?
+German	Das Unternehmen kündigte an, im nächsten Jahr zwei neue Büros zu eröffnen.
+German	Mein Bruder arbeitet in einem Krankenhaus und kommt oft sehr spät nach Hause.
+German	Wir sollten morgen früh losfahren, um den starken Verkehr zu vermeiden.
+German	Ich habe einen interessanten Artikel darüber gelesen, wie Vulkane entstehen.
+German	Die Kinder lachten und rannten durch den Garten.
+German	Er hat schon wieder seinen Regenschirm vergessen und ist jetzt völlig durchnässt.
+German	Wissenschaftler haben im Regenwald eine neue Froschart entdeckt.
+German	Denk bitte daran, das Licht auszumachen, bevor du das Haus verlässt.
+German	Dieses Restaurant serviert die besten Nudeln, die ich je gegessen habe.
+German	Der Lehrer bat die Schüler, ihre Hausaufgaben bis Freitag zu erledigen.
+German	Es regnete stark, aber das Spiel wurde wie geplant fortgesetzt.
+German	Viele Menschen reisen lieber mit dem Zug, weil es bequem ist.
+German	Die Bibliothek bleibt am Montag wegen Wartungsarbeiten geschlossen.
+German	Ich hätte gern eine Tasse Kaffee mit ein bisschen Milch.
+German	Sie sind letzten Sommer in eine kleine Stadt in der Nähe der Berge gezogen.
+German	Eine neue Sprache zu lernen erfordert Geduld, Übung und viel Zeit.
+German	Das Museum besitzt eine wunderbare Sammlung antiker Münzen und Töpferwaren.
+German	Wie lange dauert es vom Flughafen bis ins Stadtzentrum?
+German	Unsere Nachbarn haben uns am Samstagabend zum Abendessen eingeladen.
+German	Das neue Software-Update behebt mehrere Sicherheitsprobleme.
+German	Ich glaube, dass Ehrlichkeit die wichtigste Eigenschaft eines Freundes ist.
+German	Der Fluss trat nach mehreren Tagen Dauerregen über die Ufer.
+German	Wir haben eine Dokumentation über die Geschichte des Internets gesehen.
+German	Ihre Großmutter erzählt wunderbare Geschichten über das Leben im Dorf.
+German	Kannst du mir bitte helfen, diese Kisten nach oben zu tragen?
+German	Die Regierung plant, in ländlichen Gebieten mehr Schulen zu bauen.
+German	Gestern habe ich ein altes Foto von meinem Großvater gefunden.
+German	Ärzte empfehlen, bei heißem Wetter viel Wasser zu trinken.
+German	Das Konzert war innerhalb weniger Minuten ausverkauft.
+German	Er beantwortete jede Frage ruhig und gab klare Erklärungen.
+German	Die Bauern hoffen in diesem Herbst auf eine gute Ernte.
+German	Sie können am Empfang mit Karte oder bar bezahlen.
+German	Ich habe noch nie so viele Menschen in dieser Straße gesehen.
+German	Der Ingenieur erklärte, wie die Brücke so viel Gewicht tragen kann.
+German	Nach der Besprechung gingen alle gemeinsam zum Mittagessen.
+German	Schick mir bitte den Bericht, sobald er fertig ist.
+German	Die Katze schlief auf dem Sofa, während der Regen ans Fenster klopfte.
+German	Guten Morgen, wie geht es Ihnen heute?
+German	Vielen Dank für Ihre Hilfe.
+German	Wann beginnt der Film heute Abend?
+German	Ich suche ein Buch über den Weltraum und die Sterne.
+German	Die Preise für frisches Gemüse sind im letzten Monat gestiegen.
+German	Unsere Mannschaft hat die Meisterschaft im zweiten Jahr in Folge gewonnen.
+German	Die Bäckerei an der Ecke verkauft jeden Morgen frisches Brot.
+German	Er hat sich entschieden, Medizin zu studieren, weil er Menschen helfen möchte.
+German	Es gibt viele Gründe, warum Menschen gerne Romane lesen.
+German	Das Flugzeug landete trotz starken Windes sicher.
+German	Der Akku meines Handys ist in letzter Zeit viel zu schnell leer.
+Italian	Oggi il tempo è bellissimo, quindi abbiamo deciso di andare al parco a piedi.
+Italian	Lei impara a suonare il pianoforte da quasi tre anni.
+Italian	Potrebbe dirmi dov'è la stazione ferroviaria più vicina?
+Italian	L'azienda ha annunciato che aprirà due nuovi uffici l'anno prossimo.
+Italian	Mio fratello lavora in un ospedale e torna spesso a casa molto tardi.
+Italian	Dovremmo partire presto domani per evitare il traffico intenso.
+Italian	Ho letto un articolo interessante su come si formano i vulcani.
+Italian	I bambini ridevano e correvano in giardino.
+Italian	Ha dimenticato di nuovo l'ombrello e ora è completamente bagnato.
+Italian	Gli scienziati hanno scoperto una nuova specie di rana nella foresta pluviale.
+Italian	Per favore, ricordati di spegnere le luci prima di uscire di casa.
+Italian	Questo ristorante serve la migliore pasta che io abbia mai assaggiato.
+Italian	L'insegnante ha chiesto agli studenti di finire i compiti entro venerdì.
+Italian	Pioveva forte, ma la partita è continuata come previsto.
+Italian	Molte persone preferiscono viaggiare in treno perché è comodo.
+Italian	La biblioteca resterà chiusa lunedì per lavori di manutenzione.
+Italian	Vorrei una tazza di caffè con un po' di latte.
+Italian	Si sono trasferiti in una piccola città vicino alle montagne l'estate scorsa.
+Italian	Imparare una nuova lingua richiede pazienza, pratica e molto tempo.
+Italian	Il museo possiede una meravigliosa collezione di monete e ceramiche antiche.
+Italian	Quanto tempo ci vuole per andare dall'aeroporto al centro città?
+Italian	I nostri vicini ci hanno invitati a cena sabato sera.
+Italian	Il nuovo aggiornamento del software risolve diversi problemi di sicurezza.
+Italian	Penso che l'onestà sia la qualità più importante in un amico.
+Italian	Il fiume è esondato dopo diversi giorni di pioggia continua.
+Italian	Abbiamo guardato un documentario sulla storia di internet.
+Italian	Sua nonna racconta storie meravigliose sulla vita nel villaggio.
+Italian	Puoi aiutarmi a portare queste scatole di sopra, per favore?
+Italian	Il governo prevede di costruire più scuole nelle zone rurali.
+Italian	Ieri ho trovato una vecchia fotografia di mio nonno.
+Italian	I medici consigliano di bere molta acqua quando fa caldo.
+Italian	Il concerto è andato esaurito in pochi minuti.
+Italian	Ha risposto a ogni domanda con calma e ha dato spiegazioni chiare.
+Italian	Gli agricoltori sperano in un buon raccolto quest'autunno.
+Italian	Può pagare con carta o in contanti alla reception.
+Italian	Non avevo mai visto tanta gente in questa strada.
+Italian	L'ingegnere ha spiegato come il ponte possa sostenere così tanto peso.
+Italian	Dopo la riunione, tutti sono andati a pranzo insieme.
+Italian	Mandami il rapporto appena sarà pronto, per favore.
+Italian	Il gatto dormiva sul divano mentre la pioggia batteva sulla finestra.
+Italian	Buongiorno, come sta oggi?
+Italian	Grazie mille per il suo aiuto.
+Italian	A che ora inizia il film stasera?
+Italian	Sto cercando un libro sullo spazio e sulle stelle.
+Italian	Il prezzo della verdura fresca è aumentato il mese scorso.
+Italian	La nostra squadra ha vinto il campionato per il secondo anno consecutivo.
+Italian	Il panificio all'angolo vende pane caldo ogni mattina.
+Italian	Ha deciso di studiare medicina perché vuole aiutare le persone.
+Italian	Ci sono molte ragioni per cui alla gente piace leggere romanzi.
+Italian	L'aereo è atterrato senza problemi nonostante il forte vento.
+Italian	La batteria del mio telefono si scarica troppo in fretta in questi giorni.
+Portuguese	O tempo está lindo hoje, por isso decidimos ir a pé até o parque.
+Portuguese	Ela aprende a tocar piano há quase três anos.
+Portuguese	Você poderia me dizer onde fica a estação de trem mais próxima?
+Portuguese	A empresa anunciou que abrirá dois novos escritórios no próximo ano.
+Portuguese	Meu irmão trabalha num hospital e muitas vezes chega em casa muito tarde.
+Portuguese	Devemos sair cedo amanhã para evitar o trânsito pesado.
+Portuguese	Li um artigo interessante sobre como os vulcões se formam.
+Portuguese	As crianças riam e corriam pelo jardim.
+Portuguese	Ele esqueceu o guarda-chuva de novo e agora está completamente molhado.
+Portuguese	Cientistas descobriram uma nova espécie de sapo na floresta tropical.
+Portuguese	Por favor, lembre-se de apagar as luzes antes de sair de casa.
+Portuguese	Este restaurante serve a melhor massa que eu já provei.
+Portuguese	O professor pediu aos alunos que terminassem a lição de casa até sexta-feira.
+Portuguese	Chovia muito, mas o jogo continuou como planejado.
+Portuguese	Muitas pessoas preferem viajar de trem porque é confortável.
+Portuguese	A biblioteca ficará fechada na segunda-feira para obras de manutenção.
+Portuguese	Gostaria de uma xícara de café com um pouco de leite.
+Portuguese	Eles se mudaram para uma cidade pequena perto das montanhas no verão passado.
+Portuguese	Aprender um novo idioma exige paciência, prática e muito tempo.
+Portuguese	O museu tem uma maravilhosa coleção de moedas e cerâmicas antigas.
+Portuguese	Quanto tempo leva para ir do aeroporto ao centro da cidade?
+Portuguese	Os nossos vizinhos convidaram-nos para jantar no sábado à noite.
+Portuguese	A nova atualização do programa corrige vários problemas de segurança.
+Portuguese	Acho que a honestidade é a qualidade mais importante num amigo.
+Portuguese	O rio transbordou depois de vários dias de chuva contínua.
+Portuguese	Assistimos a um documentário sobre a história da internet.
+Portuguese	A avó dela conta histórias maravilhosas sobre a vida na aldeia.
+Portuguese	Você pode me ajudar a levar estas caixas para cima, por favor?
+Portuguese	O governo planeja construir mais escolas nas áreas rurais.
+Portuguese	Ontem encontrei uma fotografia antiga do meu avô.
+Portuguese	Os médicos recomendam beber bastante água quando faz calor.
+Portuguese	Os ingressos do show esgotaram em poucos minutos.
+Portuguese	Ele respondeu a todas as perguntas com calma e deu explicações claras.
+Portuguese	Os agricultores esperam uma boa colheita neste outono.
+Portuguese	Pode pagar com cartão ou em dinheiro na recepção.
+Portuguese	Nunca vi tanta gente nesta rua antes.
+Portuguese	O engenheiro explicou como a ponte consegue suportar tanto peso.
+Portuguese	Depois da reunião, todos foram almoçar juntos.
+Portuguese	Envie-me o relatório assim que estiver pronto, por favor.
+Portuguese	O gato dormia no sofá enquanto a chuva batia na janela.
+Portuguese	Bom dia, como você está hoje?
+Portuguese	Muito obrigado pela sua ajuda.
+Portuguese	A que horas começa o filme esta noite?
+Portuguese	Estou procurando um livro sobre o espaço e as estrelas.
+Portuguese	O preço dos legumes frescos subiu no mês passado.
+Portuguese	Nossa equipe ganhou o campeonato pelo segundo ano seguido.
+Portuguese	A padaria da esquina vende pão quentinho todas as manhãs.
+Portuguese	Ele decidiu estudar medicina porque quer ajudar as pessoas.
+Portuguese	Há muitas razões pelas quais as pessoas gostam de ler romances.
+Portuguese	O avião pousou em segurança apesar dos ventos fortes.
+Portuguese	A bateria do meu celular acaba rápido demais ultimamente.
+Turkish	Bugün hava çok güzel, bu yüzden parka yürüyerek gitmeye karar verdik.
+Turkish	O, yaklaşık üç yıldır piyano çalmayı öğreniyor.
+Turkish	En yakın tren istasyonunun nerede olduğunu söyleyebilir misiniz?
+Turkish	Şirket, gelecek yıl iki yeni ofis açacağını duyurdu.
+Turkish	Kardeşim bir hastanede çalışıyor ve eve çoğu zaman çok geç geliyor.
+Turkish	Yoğun trafikten kaçınmak için yarın erken yola çıkmalıyız.
+Turkish	Volkanların nasıl oluştuğu hakkında ilginç bir makale okudum.
+Turkish	Çocuklar bahçede gülerek koşuyorlardı.
+Turkish	Şemsiyesini yine unuttu ve şimdi baştan aşağı ıslak.
+Turkish	Bilim insanları yağmur ormanında yeni bir kurbağa türü keşfetti.
+Turkish	Lütfen evden çıkmadan önce ışıkları kapatmayı unutma.
+Turkish	Bu restoran şimdiye kadar tattığım en iyi makarnayı sunuyor.
+Turkish	Öğretmen öğrencilerden ödevlerini cumaya kadar bitirmelerini istedi.
+Turkish	Şiddetli yağmur yağıyordu ama maç planlandığı gibi devam etti.
+Turkish	Birçok insan rahat olduğu için trenle seyahat etmeyi tercih ediyor.
+Turkish	Kütüphane bakım çalışmaları nedeniyle pazartesi günü kapalı olacak.
+Turkish	Biraz sütlü bir fincan kahve istiyorum.
+Turkish	Geçen yaz dağların yakınındaki küçük bir kasabaya taşındılar.
+Turkish	Yeni bir dil öğrenmek sabır, pratik ve çok zaman gerektirir.
+Turkish	Müzede eski paralar ve çömleklerden oluşan harika bir koleksiyon var.
+Turkish	Havalimanından şehir merkezine gitmek ne kadar sürer?
+Turkish	Komşularımız bizi cumartesi akşamı yemeğe davet etti.
+Turkish	Yeni yazılım güncellemesi birkaç güvenlik sorununu gideriyor.
+Turkish	Bence dürüstlük bir arkadaşta bulunması gereken en önemli özelliktir.
+Turkish	Nehir, günlerce süren yağmurdan sonra taştı.
+Turkish	İnternetin tarihi hakkında bir belgesel izledik.
+Turkish	Büyükannesi köydeki hayat hakkında harika hikayeler anlatır.
+Turkish	Bu kutuları yukarı taşımama yardım edebilir misin lütfen?
+Turkish	Hükümet kırsal bölgelerde daha fazla okul yapmayı planlıyor.
+Turkish	Dün büyükbabamın eski bir fotoğrafını buldum.
+Turkish	Doktorlar sıcak havalarda bol su içmeyi öneriyor.
+Turkish	Konserin biletleri birkaç dakika içinde tükendi.
+Turkish	Her soruyu sakince yanıtladı ve net açıklamalar yaptı.
+Turkish	Çiftçiler bu sonbaharda iyi bir hasat umuyor.
+Turkish	Resepsiyonda kartla veya nakit ödeme yapabilirsiniz.
+Turkish	Bu sokakta daha önce hiç bu kadar büyük bir kalabalık görmemiştim.
+Turkish	Mühendis, köprünün bu kadar ağırlığı nasıl taşıyabildiğini açıkladı.
+Turkish	Toplantıdan sonra herkes birlikte öğle yemeğine gitti.
+Turkish	Rapor hazır olur olmaz lütfen bana gönder.
+Turkish	Yağmur pencereye vururken kedi kanepede uyuyordu.
+Turkish	Günaydın, bugün nasılsınız?
+Turkish	Yardımınız için çok teşekkür ederim.
+Turkish	Film bu akşam saat kaçta başlıyor?
+Turkish	Uzay ve yıldızlar hakkında bir kitap arıyorum.
+Turkish	Taze sebzelerin fiyatı geçen ay yükseldi.
+Turkish	Takımımız üst üste ikinci kez şampiyon oldu.
+Turkish	Köşedeki fırın her sabah sıcak ekmek satıyor.
+Turkish	İnsanlara yardım etmek istediği için tıp okumaya karar verdi.
+Turkish	İnsanların roman okumaktan hoşlanmasının birçok nedeni var.
+Turkish	Uçak, güçlü rüzgarlara rağmen güvenle indi.
+Turkish	Telefonumun bataryası bu günlerde çok çabuk bitiyor.

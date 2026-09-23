@@ -1,0 +1,13 @@
+# Define the root directory and subdirectories[cite: 1]
+$rootDir = "autocomp-model"
+$subDirs = @("chatbot", "rdf", "scripts", "weights")
+
+# Create the root directory
+New-Item -ItemType Directory -Force -Path $rootDir | Out-Null
+
+# Create each subdirectory
+foreach ($dir in $subDirs) {
+    New-Item -ItemType Directory -Force -Path (Join-Path $rootDir $dir) | Out-Null
+}
+
+Write-Host "Directory structure created successfully inside '$rootDir'!" -ForegroundColor Green
