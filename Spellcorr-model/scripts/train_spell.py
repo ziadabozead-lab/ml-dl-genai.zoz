@@ -23,6 +23,10 @@ Train:      python scripts/train_spell.py
 Quick:      python scripts/train_spell.py --max-words 8000 --epochs 8
 Try a text: python scripts/train_spell.py --predict "I recieve teh mesage tommorow"
 Type many:  python scripts/train_spell.py --interactive
+
+If val loss bounces around instead of settling (watch the "demo" line - it
+should keep getting better, not flicker), the LR is dropped automatically
+(see --lr / --lr-patience) - no need to restart with a different --lr by hand.
 """
 import argparse
 import random
@@ -68,22 +72,27 @@ def _neighbors():
 NEIGH = _neighbors()
 
 
-def corrupt(word, rng):
-    """Apply 1-2 random typos: delete, insert, substitute, swap, or double a letter."""
+def _one_typo(w, i, rng):
+    op = rng.choice(("del", "ins", "sub", "swap", "dup"))
+    if op == "del" and len(w) > 3:
+        return w[:i] + w[i + 1:]
+    if op == "ins":
+        return w[:i] + rng.choice(NEIGH.get(w[i], LETTERS)) + w[i:]
+    if op == "sub":
+        return w[:i] + rng.choice(NEIGH.get(w[i], LETTERS)) + w[i + 1:]
+    if op == "swap" and i < len(w) - 1:
+        return w[:i] + w[i + 1] + w[i] + w[i + 2:]
+    if op == "dup":
+        return w[:i + 1] + w[i] + w[i:]
+    return w
+
+
+def corrupt(word, rng, two_typo_chance=0.15):
+    """Apply 1 typo (mostly) or 2 typos (sometimes) so training starts on the easy case."""
     w = word
-    for _ in range(rng.choice((1, 1, 1, 2))):
-        i = rng.randrange(len(w))
-        op = rng.choice(("del", "ins", "sub", "swap", "dup"))
-        if op == "del" and len(w) > 3:
-            w = w[:i] + w[i + 1:]
-        elif op == "ins":
-            w = w[:i] + rng.choice(NEIGH.get(w[i], LETTERS)) + w[i:]
-        elif op == "sub":
-            w = w[:i] + rng.choice(NEIGH.get(w[i], LETTERS)) + w[i + 1:]
-        elif op == "swap" and i < len(w) - 1:
-            w = w[:i] + w[i + 1] + w[i] + w[i + 2:]
-        elif op == "dup":
-            w = w[:i + 1] + w[i] + w[i:]
+    n = 2 if rng.random() < two_typo_chance else 1
+    for _ in range(n):
+        w = _one_typo(w, rng.randrange(len(w)), rng)
     return w[:MAXLEN]
 
 
@@ -253,17 +262,23 @@ def main():
     ap.add_argument("--data", default=str(DEFAULT_DATA))
     ap.add_argument("--out", default=str(DEFAULT_OUT))
     ap.add_argument("--tagged", action="store_true", help='file lines look like "word<TAB>TAG"')
-    ap.add_argument("--epochs", type=int, default=20)
+    ap.add_argument("--epochs", type=int, default=30)
     ap.add_argument("--batch", type=int, default=128)
-    ap.add_argument("--lr", type=float, default=2e-3)
+    ap.add_argument("--lr", type=float, default=1e-3,
+                    help="lowered from 2e-3: the higher rate made val loss bounce instead of settling")
+    ap.add_argument("--lr-patience", type=int, default=2,
+                    help="halve the LR after this many epochs with no val-loss improvement")
     ap.add_argument("--max-words", type=int, default=30000, help="use the N most frequent words")
     ap.add_argument("--min-count", type=int, default=2, help="a word must appear this often to train on it")
     ap.add_argument("--known-min", type=int, default=3, help="count needed to treat a word as correctly spelled")
     ap.add_argument("--typos-per-word", type=int, default=3, help="fresh typos generated per word each epoch")
+    ap.add_argument("--two-typo-chance", type=float, default=0.15,
+                    help="chance a training example gets 2 typos instead of 1 (harder)")
     ap.add_argument("--clean-frac", type=float, default=0.1, help="share of examples that are already correct")
-    ap.add_argument("--patience", type=int, default=4)
+    ap.add_argument("--patience", type=int, default=6)
     ap.add_argument("--min-delta", type=float, default=1e-3)
-    ap.add_argument("--monitor", choices=["acc", "loss"], default="acc")
+    ap.add_argument("--monitor", choices=["acc", "loss"], default="loss",
+                    help="loss is smoother/less noisy than exact-match acc on a small val set")
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--predict", default=None)
     ap.add_argument("--interactive", action="store_true")
@@ -301,7 +316,7 @@ def main():
     n_val = max(50, int(len(words) * 0.1))
     val_words, train_words = words[:n_val], words[n_val:]
     vr = random.Random(123)                                    # fixed typos -> comparable epochs
-    val_typo = [(corrupt(w, vr), w) for w in val_words for _ in range(2)]
+    val_typo = [(corrupt(w, vr, args.two_typo_chance), w) for w in val_words for _ in range(2)]
     val_typo = [(s, t) for s, t in val_typo if s != t]
     val_clean = [(w, w) for w in val_words]
     print(f"Train words: {len(train_words)} | val words: {len(val_words)} (never seen in training) "
@@ -311,6 +326,7 @@ def main():
     model = Seq2Seq(len(C2I), **hparams)
     print(f"Model parameters: {sum(p.numel() for p in model.parameters()):,}")
     opt = torch.optim.Adam(model.parameters(), lr=args.lr)
+    sched = torch.optim.lr_scheduler.ReduceLROnPlateau(opt, factor=0.5, patience=args.lr_patience)
     loss_fn = nn.CrossEntropyLoss(ignore_index=PAD)
     demo = ["teh", "recieve", "becuase", "wich", "freind", "definately"]
 
@@ -323,7 +339,7 @@ def main():
         data = []
         for w in train_words:
             for _ in range(args.typos_per_word):
-                data.append((w if rng.random() < args.clean_frac else corrupt(w, rng), w))
+                data.append((w if rng.random() < args.clean_frac else corrupt(w, rng, args.two_typo_chance), w))
         rng.shuffle(data)
         total, steps = 0.0, 0
         for i in range(0, len(data), args.batch):
@@ -341,6 +357,7 @@ def main():
 
         m_typo = evaluate(model, val_typo, loss_fn)
         m_clean = evaluate(model, val_clean, loss_fn)
+        sched.step(m_typo["loss"])
         score = score_of(m_typo)
         improved = score > best_score + args.min_delta
         if improved:
@@ -348,9 +365,10 @@ def main():
             best_state = {k: v.detach().clone() for k, v in model.state_dict().items()}
         else:
             wait += 1
-        print(f"Epoch {epoch:2d} | train loss {total / max(steps, 1):.4f} | val loss {m_typo['loss']:.4f} | "
-              f"typo->fixed {m_typo['acc']:.3f} | correct words kept {m_clean['acc']:.3f}"
-              f"{'  *' if improved else ''}")
+        lr_now = opt.param_groups[0]["lr"]
+        print(f"Epoch {epoch:2d} | lr {lr_now:.2e} | train loss {total / max(steps, 1):.4f} | "
+              f"val loss {m_typo['loss']:.4f} | typo->fixed {m_typo['acc']:.3f} | "
+              f"correct words kept {m_clean['acc']:.3f}{'  *' if improved else ''}")
         print("   demo:", ", ".join(f"{a}->{b}" for a, b in zip(demo, fix_words(model, demo))))
         if wait >= args.patience:
             print(f"Early stopping: no improvement in {args.monitor} for {args.patience} epochs.")
