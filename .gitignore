@@ -1,4 +1,11 @@
 .venv/
 __pycache__/
+imgclf-model/rdf/data-v1/
+imgclf-model/rdf/data-v2/
+imgclf-model/rdf/data-v3/
+
 power.txt
 *.pt
+*.zip
+*.gz
+*.pth
