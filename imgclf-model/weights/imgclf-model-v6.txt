@@ -1,0 +1,1 @@
+backbone=mobilenet_v2 img-size=128 per-class=100 flip=False started=2026-09-30 22:46
