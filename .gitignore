@@ -1,10 +1,8 @@
 .venv/
 __pycache__/
-imgclf-model/rdf/data-v1/cifar10/cifar-10-batches-py/
-imgclf-model/rdf/data-v2/cifar100/cifar-100-python/
-imgclf-model/rdf/data-v3/feature_cache/
-imgclf-model/rdf/data-v3/tiny-imagenet-200/
-imgclf-model/rdf/data-v3/torch_cache/
+imgclf-model/rdf/data-v1/
+imgclf-model/rdf/data-v2/
+imgclf-model/rdf/data-v3/
 imgclf-model/rdf/data-v4/
 
 
