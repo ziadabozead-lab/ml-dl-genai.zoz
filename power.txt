@@ -1,5 +1,5 @@
 # Define the root directory and subdirectories[cite: 1]
-$rootDir = "imgclf-model"
+$rootDir = "llm-model"
 $subDirs = @("chatbot", "rdf", "scripts", "weights")
 
 # Create the root directory
