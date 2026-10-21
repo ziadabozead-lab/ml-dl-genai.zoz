@@ -14,16 +14,17 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, get_linear_schedule_with_warmup
 
 p = argparse.ArgumentParser()
-p.add_argument("--data", default="rdf/llm_corpus-v3.txt", help="path to training .txt")
+p.add_argument("--data", default="rdf/llm_corpus-v4.txt", help="path to training .txt")
 p.add_argument("--model", default="distilgpt2", help="HF model name (distilgpt2, gpt2)")
-p.add_argument("--out", default="weights/full_fine_tune/llm_model_full-v3")
+p.add_argument("--out", default="weights/full_fine_tune/llm_model_full-v4")
 p.add_argument("--block", type=int, default=32, help="sequence length (smaller = faster)")
-p.add_argument("--batch", type=int, default=4)
-p.add_argument("--accum", type=int, default=8, help="gradient accumulation steps")
-p.add_argument("--epochs", type=int, default=3)
+p.add_argument("--batch", type=int, default=64)
+p.add_argument("--accum", type=int, default=16, help="gradient accumulation steps")
+p.add_argument("--epochs", type=int, default=1)
 p.add_argument("--lr", type=float, default=5e-5)
 p.add_argument("--val_split", type=float, default=0.05)
 p.add_argument("--threads", type=int, default=os.cpu_count())
+p.add_argument("--save_every", type=int, default=100, help="save a checkpoint every N optimizer steps (0 = off)")
 p.add_argument("--generate", default=None, help="skip training, generate from this prompt")
 p.add_argument("--max_new", type=int, default=100)
 args = p.parse_args()
@@ -92,6 +93,14 @@ def evaluate():
     return sum(losses) / len(losses)
 
 
+def save_checkpoint(step):
+    path = os.path.join(args.out, f"checkpoint-{step}")
+    os.makedirs(path, exist_ok=True)
+    model.save_pretrained(path)
+    tok.save_pretrained(path)
+    print(f"   checkpoint saved: {path}")
+
+
 # ---------- train ----------
 model.train()
 best = float("inf")
@@ -111,6 +120,8 @@ for epoch in range(1, args.epochs + 1):
             sched.step()
             opt.zero_grad()
             step += 1
+            if args.save_every and step % args.save_every == 0:
+                save_checkpoint(step)
             if step % 10 == 0:
                 print(f"epoch {epoch} step {step}/{total_steps} train_loss {running/n:.4f}")
     val_loss = evaluate()

@@ -1,0 +1,49 @@
+=== 1. SPEED (clear the chat before each section) ===
+
+Count from 1 to 50, separated by commas.
+
+Write a 300-word story about a robot learning to cook.
+
+(Run !nvidia-smi in a notebook cell while the story generates.)
+
+
+=== 2. MEMORY (send as two messages) ===
+
+My name is Ziad and I'm building a chatbot on Kaggle.
+
+What's my name and what am I building?
+
+
+=== 3. GENERATION ===
+
+Write a Python function that checks if a string is a palindrome, ignoring spaces and punctuation. Include 3 test cases.
+
+
+=== 4. CREATING FILES ===
+
+Create a file called hello.py that prints the first 10 Fibonacci numbers.
+
+Create two files: index.html and style.css for a simple landing page.
+
+Create a file called hello.py that prints the first 10 Fibonacci numbers.
+(the repeat should be saved as hello_1.py)
+
+
+=== 5. FILE FIXING (upload buggy.py first) ===
+
+Fix the bugs in the uploaded file and give me the corrected version as a file.
+
+
+=== 6. UPLOAD FEATURES ===
+
+What was the bug on line 3, and how did you fix it?
+(send without uploading anything new)
+
+(upload notes.txt, then send:)
+Summarize the uploaded file in 3 bullet points.
+
+(upload any image, then send:)
+What is in this image?
+
+(click "Forget uploaded files", then send:)
+What files did I upload?

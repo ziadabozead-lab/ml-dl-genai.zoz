@@ -213,7 +213,7 @@ def main():
     ap.add_argument("--lr", type=float, default=1e-3)
     ap.add_argument("--lr-patience", type=int, default=2)
     ap.add_argument("--max-pairs", type=int, default=0, help="0 = use every pair in the file")
-    ap.add_argument("--min-freq", type=int, default=2, help="a word must appear this often to get its own id")
+    ap.add_argument("--min-freq", type=int, default=3, help="a word must appear this often to get its own id")
     ap.add_argument("--patience", type=int, default=6)
     ap.add_argument("--min-delta", type=float, default=1e-3)
     ap.add_argument("--seed", type=int, default=42)

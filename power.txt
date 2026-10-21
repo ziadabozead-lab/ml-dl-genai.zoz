@@ -1,4 +1,4 @@
-# Define the root directory and subdirectories[cite: 1]
+
 $rootDir = "llm-model"
 $subDirs = @("chatbot", "rdf", "scripts", "weights")
 
@@ -11,3 +11,28 @@ foreach ($dir in $subDirs) {
 }
 
 Write-Host "Directory structure created successfully inside '$rootDir'!" -ForegroundColor Green
+
+
+cd D:\MyWork\training\no\llm-model
+python D:\MyWork\training\no\llm-model\scripts\finetune_full.py --data rdf/llm_corpus-v7.txt --out weights/full_fine_tune/llm_model_full-v7
+python D:\MyWork\training\no\llm-model\scripts\finetune_semi.py --data rdf/llm_corpus-v7.txt --out weights/semi_fine_tune/llm_model-semi-v7
+python D:\MyWork\training\no\llm-model\scripts\finetune_full.py --data rdf/llm_corpus-v6.txt --out weights/full_fine_tune/llm_model_full-v6
+python D:\MyWork\training\no\llm-model\scripts\finetune_semi.py --data rdf/llm_corpus-v6.txt --out weights/semi_fine_tune/llm_model-semi-v6
+
+
+
+cd D:\MyWork\training\no\llm-model
+python D:\MyWork\training\no\llm-model\scripts\finetune_full.py --data rdf/llm_corpus-v7.txt --out weights/full_fine_tune/llm_model_full-v7
+python D:\MyWork\training\no\llm-model\scripts\finetune_semi.py --data rdf/llm_corpus-v7.txt --out weights/semi_fine_tune/llm_model-semi-v7
+
+
+
+cd D:\MyWork\training\no\llm-model
+python D:\MyWork\training\no\llm-model\scripts\finetune_full.py --data rdf/llm_corpus-v8.txt --out weights/full_fine_tune/llm_model_full-v8
+python D:\MyWork\training\no\llm-model\scripts\finetune_semi.py --data rdf/llm_corpus-v8.txt --out weights/semi_fine_tune/llm_model-semi-v8
+python D:\MyWork\training\no\llm-model\scripts\finetune_full.py --data rdf/llm_corpus-v9.txt --out weights/full_fine_tune/llm_model_full-v9
+python D:\MyWork\training\no\llm-model\scripts\finetune_semi.py --data rdf/llm_corpus-v9.txt --out weights/semi_fine_tune/llm_model-semi-v9
+python D:\MyWork\training\no\llm-model\scripts\finetune_full.py --data rdf/llm_corpus-v10.txt --out weights/full_fine_tune/llm_model_full-v10
+python D:\MyWork\training\no\llm-model\scripts\finetune_semi.py --data rdf/llm_corpus-v10.txt --out weights/semi_fine_tune/llm_model-semi-v10
+python D:\MyWork\training\no\llm-model\scripts\finetune_full.py --data rdf/llm_corpus-v11.txt --out weights/full_fine_tune/llm_model_full-v11
+python D:\MyWork\training\no\llm-model\scripts\finetune_semi.py --data rdf/llm_corpus-v11.txt --out weights/semi_fine_tune/llm_model-semi-v11

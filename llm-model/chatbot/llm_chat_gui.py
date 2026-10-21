@@ -37,11 +37,14 @@ DEFAULT_SYSTEM = "You are a helpful, concise assistant."
 
 
 def list_local_models():
-    if not os.path.isdir(WEIGHTS_DIR):
-        return []
-    names = [n for n in os.listdir(WEIGHTS_DIR) if os.path.exists(os.path.join(WEIGHTS_DIR, n, "config.json"))]
-    names.sort(key=lambda n: os.path.getmtime(os.path.join(WEIGHTS_DIR, n)), reverse=True)
-    return names
+    """Model folders anywhere under weights/, including nested ones like full_fine_tune/llm_model_full-v1."""
+    found = []
+    for dirpath, dirnames, files in os.walk(WEIGHTS_DIR):
+        if "config.json" in files:
+            found.append(dirpath)
+            dirnames[:] = []                      # don't search inside a model folder
+    found.sort(key=os.path.getmtime, reverse=True)
+    return [os.path.relpath(d, WEIGHTS_DIR).replace(os.sep, "/") for d in found]
 
 
 def build_inputs(tok, history, system, use_template):

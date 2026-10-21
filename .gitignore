@@ -6,6 +6,7 @@ imgclf-model/rdf/data-v3/
 imgclf-model/rdf/data-v4/
 weights/
 
+secrets.*
 
 power.txt
 *.pt
@@ -14,3 +15,4 @@ power.txt
 *.zip
 *.tar
 *.gz
+*.safetensors
